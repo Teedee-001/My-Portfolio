@@ -1,0 +1,114 @@
+/* GENERAL PAGE STYLE */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background-color: #0b132b;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #5bc0be;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #d1d1d1;
+}
+
+/* SECTIONS */
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #0b132b;
+    border-bottom: 2px solid #5bc0be;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+section p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* LISTS */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* LINKS */
+a {
+    color: #5bc0be;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #3a506b;
+    text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background-color: #0b132b;
+    color: #d1d1d1;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+/* Form Messages */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    font-family: inherit;
+}
+
+button {
+    background-color: #5bc0be;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #3a506b;
+}
