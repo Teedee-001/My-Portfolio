@@ -113,3 +113,10 @@ button:hover {
     background-color: #3a506b;
 }
 
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* makes it circular */
+  object-fit: cover;
+  margin: 10px 0;
+}
